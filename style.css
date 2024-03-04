@@ -1,7 +1,6 @@
 body{
     margin: auto;
     padding: 0;
-    font-family: sans-serif;
 }
 header{
     background-image: url(./img/pattern.png);
@@ -15,4 +14,17 @@ header{
     height: 50%;
     width: 25%;
     padding-top: 4%;
+}
+h1{
+font-weight: 1100;
+font-size: 85px;
+color: black;
+}
+.written{
+    color: grey;
+    font-size: 30px;
+}
+#writer{
+    color: lightskyblue;
+
 }
