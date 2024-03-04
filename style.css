@@ -48,3 +48,22 @@ color: black;
     background-color: yellow;
 }
 
+ul{
+    margin: 1%;
+    padding: 1%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    border-collapse: collapse;
+
+}
+thead{
+    background-color: rgb(9, 116, 116);
+    color: white;
+}
+.pair{
+    background-color: aqua;
+}
