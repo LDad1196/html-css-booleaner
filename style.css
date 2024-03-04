@@ -67,3 +67,37 @@ thead{
 .pair{
     background-color: aqua;
 }
+
+h2{
+    color: grey;
+}
+
+#monitor{
+    background-image: url(./img/monitor.jpg);
+    background-repeat: no-repeat;
+    height: 15vh;
+    width: 15vw;
+    position: relative
+    
+}
+
+#graph{
+    margin-top: 2%;
+    background-image: url(./img/graph.jpg);
+    background-repeat: no-repeat;
+    height: 15vh;
+    width: 15vw;
+    position: relative
+}
+
+.final{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 1vh;
+    left: 1vw;
+
+}
+
+
+
