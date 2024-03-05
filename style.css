@@ -1,13 +1,15 @@
 body{
-    margin: auto;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header{
     background-image: url(./img/pattern.png);
     background-size: 43%;
-    height: 10%;
-    background-color: rgb(56, 155, 221);   
+    height: 11%;
+    background-color: #4ea0ff;
+    padding: 0 1em;   
 }
 
 #logo{
@@ -50,12 +52,12 @@ color: black;
 
 ul{
     margin: 1%;
-    padding: 1%;
+    padding: 0;
 }
 
 table{
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin: 0;
     border-collapse: collapse;
 
@@ -64,7 +66,11 @@ thead{
     background-color: rgb(9, 116, 116);
     color: white;
 }
-.pair{
+
+text-table{
+    width: 50%;
+}
+.odd{
     background-color: aqua;
 }
 
@@ -96,7 +102,6 @@ h2{
     position: absolute;
     top: 1vh;
     left: 1vw;
-
 }
 
 
